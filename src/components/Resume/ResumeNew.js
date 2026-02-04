@@ -2,8 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
-import cv from "../../Assets/cv_Video.mp4";
-import pdf from "../../Assets/../Assets/Med_Mehdi_Trabelssi (5).pdf";
+import pdf from "../../Assets/../Assets/Projects/Med_Mehdi_Trabelssi_CV.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
@@ -22,20 +21,7 @@ function ResumeNew() {
         <Particle />
         {/* Video CV Section */}
         <Row style={{ justifyContent: "center", position: "relative", marginBottom: "20px" }}>
-          <div style={{ width: "80%", maxWidth: "700px" }}>
-            <h3 className="text-center" style={{ marginBottom: "10px" }}>
-              Video CV
-            </h3>
-            <iframe
-              width="100%"
-              height="400"
-              src= {cv}// Replace with your video link
-              title="Video CV"
-              frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-            ></iframe>
-          </div>
+          
         </Row>
 
         {/* CV Download Button */}

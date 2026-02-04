@@ -44,7 +44,16 @@ function Projects() {
               demoLink="https://www.youtube.com/watch?v=j3ZfckKI7Nk"
             />
           </Col>
-
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={site}
+              isBlog={false}
+              title="Modèle IA "
+              description="Un modèle de langage basé sur l’intelligence artificielle utilisant des techniques d’apprentissage profond pour comprendre et générer automatiquement du texte. Compétences acquises : compréhension du fonctionnement des modèles de langage et des bases du deep learning, manipulation et déploiement de modèles d’IA en local, utilisation d’outils d’exécution de modèles (LM Studio, llama.cpp, etc.), conception et optimisation de prompts, analyse des performances et des limites des modèles, ainsi que sensibilisation aux enjeux éthiques et à la protection des données liés à l’intelligence artificielle."
+              ghLink="https://github.com/trabelsi-Mehdi/Modele_IA"
+              demoLink="https://youtu.be/yWczeqHHFus"
+            />
+          </Col>
          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={site}
