@@ -11,6 +11,7 @@ import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 import Jest from "../../Assets/Projects/Jest.png"
 import site from "../../Assets/Projects/ecommerce.png"
+import site2 from "../../Assets/image.jpg"
 
 function Projects() {
   return (
@@ -46,12 +47,23 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={site}
+              imgPath={site2}
               isBlog={false}
               title="Modèle IA "
               description="Un modèle de langage basé sur l’intelligence artificielle utilisant des techniques d’apprentissage profond pour comprendre et générer automatiquement du texte. Compétences acquises : compréhension du fonctionnement des modèles de langage et des bases du deep learning, manipulation et déploiement de modèles d’IA en local, utilisation d’outils d’exécution de modèles (LM Studio, llama.cpp, etc.), conception et optimisation de prompts, analyse des performances et des limites des modèles, ainsi que sensibilisation aux enjeux éthiques et à la protection des données liés à l’intelligence artificielle."
               ghLink="https://github.com/trabelsi-Mehdi/Modele_IA"
               demoLink="https://youtu.be/yWczeqHHFus"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={emotion}
+              isBlog={false}
+              title="Face Recognition and Emotion Detection"
+              description="J'ai entraîné un classificateur CNN en utilisant le jeu de données FER-2013 avec Keras et TensorFlow comme backend. Le classificateur a réussi à prédire différents types d'émotions humaines. La précision la plus élevée obtenue avec le modèle était de 60,1 %. Ensuite, j'ai utilisé OpenCV pour détecter le visage dans une image, puis j'ai transmis ce visage au classificateur afin de prédire l'émotion de la personne."
+              ghLink="https://github.com/trabelsi-Mehdi/Face_emotion_Detector"
+              demoLink="https://youtu.be/optHrEFFb-o"
+              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
           </Col>
          <Col md={4} className="project-card">
@@ -64,16 +76,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="J'ai entraîné un classificateur CNN en utilisant le jeu de données FER-2013 avec Keras et TensorFlow comme backend. Le classificateur a réussi à prédire différents types d'émotions humaines. La précision la plus élevée obtenue avec le modèle était de 60,1 %. Ensuite, j'ai utilisé OpenCV pour détecter le visage dans une image, puis j'ai transmis ce visage au classificateur afin de prédire l'émotion de la personne."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
-            />
-          </Col>
+          
         </Row>
       </Container>
     </Container>

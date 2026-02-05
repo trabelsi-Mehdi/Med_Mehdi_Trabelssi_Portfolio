@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
-import Particle from "../Particle";
-import pdf from "../../Assets/../Assets/Projects/Med_Mehdi_Trabelssi_CV.pdf";
+import pdf from "../../Assets/../Assets/Med_Mehdi_Trabelssi_V2.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
@@ -18,24 +17,7 @@ function ResumeNew() {
   return (
     <div>
       <Container fluid className="resume-section">
-        <Particle />
-        {/* Video CV Section */}
-        <Row style={{ justifyContent: "center", position: "relative", marginBottom: "20px" }}>
-          
-        </Row>
-
-        {/* CV Download Button */}
-        <Row style={{ justifyContent: "center", position: "relative" }}>
-          <Button
-            variant="primary"
-            href={pdf}
-            target="_blank"
-            style={{ maxWidth: "250px" }}
-          >
-            <AiOutlineDownload />
-            &nbsp;Download CV
-          </Button>
-        </Row>
+        
 
         {/* Resume Viewer */}
         <Row className="resume">
