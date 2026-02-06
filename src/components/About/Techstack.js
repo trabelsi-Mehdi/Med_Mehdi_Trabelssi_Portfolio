@@ -11,7 +11,6 @@ import {
   DiJava,
   DiMysql,
   DiLinux,
-  DiDocker,
 } from "react-icons/di";
 import {
   SiFirebase,
@@ -24,7 +23,7 @@ import {
   SiPandas,
   SiGraphql,
 } from "react-icons/si";
-import { TbBrandGolang } from "react-icons/tb";
+
 
 function Techstack() {
   return (

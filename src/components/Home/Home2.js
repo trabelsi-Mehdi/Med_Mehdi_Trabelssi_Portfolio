@@ -4,8 +4,6 @@ import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
   AiOutlineInstagram,
   AiFillMail,
 } from "react-icons/ai";
