@@ -24,7 +24,7 @@ function Home2() {
               <br />
               <br />Je maîtrise les bases, tel que
               <i>
-                <b className="purple"> Java , Javascript , Python et Data  </b>
+                <b className="purple"> Python , Javascript , Java et Data  </b>
               </i>
               <br />
               <br />
@@ -50,6 +50,11 @@ function Home2() {
                 <b className="purple"> PyTorch et Scikit-learn</b>
               </i>
               &nbsp; pour les systèmes IoT et l'analyse de données.
+              <br />
+              <br />
+              <p style={{ color: "white" }}>
+                Je recherche une alternance de 24 mois pour septembre 2026
+              </p>
             </p>
           </Col>
           <Col md={4} className="myAvtar">
