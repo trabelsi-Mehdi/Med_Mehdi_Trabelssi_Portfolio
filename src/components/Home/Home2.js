@@ -53,7 +53,7 @@ function Home2() {
               <br />
               <br />
               <p style={{ color: "white" }}>
-                Je recherche une alternance de 24 mois pour septembre 2026
+                Je recherche une alternance de 24 mois pour septembre 2026 dans les domaines de l'<b className="purple">Intelligence Artificielle</b>, de la <b className="purple"> Data Science</b> ou du <b className="purple">développement Full Stack</b>.
               </p>
             </p>
           </Col>
@@ -83,7 +83,7 @@ function Home2() {
               
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/mehdi-trabelsi-9150ab268/"
+                  href="https://www.linkedin.com/in/mehdi-trabelssi-9150ab268"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"

@@ -53,7 +53,7 @@ function NavBar() {
           <Nav className="ms-auto" defaultActiveKey="#home">
             <Nav.Item>
               <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
-                <AiOutlineHome style={{ marginBottom: "2px" }} /> Acceuil
+                <AiOutlineHome style={{ marginBottom: "2px" }} /> Accueil
               </Nav.Link>
             </Nav.Item>
 
@@ -63,7 +63,7 @@ function NavBar() {
                 to="/about"
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineUser style={{ marginBottom: "2px" }} /> A propos
+                <AiOutlineUser style={{ marginBottom: "2px" }} /> À propos
               </Nav.Link>
             </Nav.Item>
 
@@ -96,13 +96,13 @@ function NavBar() {
                 to="/resume"
                 onClick={() => updateExpanded(false)}
               >
-                <CgFileDocument style={{ marginBottom: "2px" }} /> Résumé
+                <CgFileDocument style={{ marginBottom: "2px" }} /> CV
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
               <Nav.Link
-                href="https://soumyajitblogs.vercel.app/"
+                href="https://portfoliotrabelssi.netlify.app/"
                 target="_blank"
                 rel="noreferrer"
               >

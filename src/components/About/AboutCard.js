@@ -29,7 +29,7 @@ function AboutCard() {
               - Participer à la vie associative
             </li>
             <li className="about-activity">
-              - S'impliquer dans les clubs étudiants
+              - Jouer au basketball et ping-pong
             </li>
           </ul>
 </p>

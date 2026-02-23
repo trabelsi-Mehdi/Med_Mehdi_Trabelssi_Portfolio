@@ -58,7 +58,6 @@ function Projects() {
               description="J'ai entraîné un classificateur CNN en utilisant le jeu de données FER-2013 avec Keras et TensorFlow comme backend. Le classificateur a réussi à prédire différents types d'émotions humaines. La précision la plus élevée obtenue avec le modèle était de 60,1 %. Ensuite, j'ai utilisé OpenCV pour détecter le visage dans une image, puis j'ai transmis ce visage au classificateur afin de prédire l'émotion de la personne."
               ghLink="https://github.com/trabelsi-Mehdi/Face_emotion_Detector"
               demoLink="https://youtu.be/optHrEFFb-o"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
           </Col>
          <Col md={4} className="project-card">
