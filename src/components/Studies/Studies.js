@@ -21,7 +21,7 @@ function Studies() {
 
   const studiesData = [
     {
-      degree: "Licence en Informatique",
+      degree: "Diplôme d'ingénieur en informatique spécialité Systèmes Numériques ",
       institution: "Université de Technologie de Troyes (UTT)",
       year: "2025 - Présent",
       image:utt,
